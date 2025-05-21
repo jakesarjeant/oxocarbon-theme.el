@@ -149,7 +149,13 @@
   (org-level-7
    (:foreground base13-green))
   (org-level-8
-   (:foreground base15-lighter-blue)))
+   (:foreground base15-lighter-blue))
+
+  ;; Git/Diff
+  (diff-hl-change
+   (:foreground base08-cyan))
+  (diff-error
+   (:foreground base10-red :inherit 'underline)))
 
  (setq frame-background-mode 'dark)
  (add-to-list 'default-frame-alist '(background-color . base00))
