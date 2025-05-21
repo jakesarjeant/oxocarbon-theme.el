@@ -4,6 +4,8 @@ This is a port of the [[https://github.com/nyoom-engineering/oxocarbon.nvim][oxo
 
 This is not a 100% complete port — quite a few of the less common faces haven't been defined yet — but it's more complete than any of the other emacs ports I could find. Feel free to open a PR if you notice anything I've missed!
 
+Also note that this theme currently only supports dark mode. I'll definitely add light mode at some point, but I'm done porting for today!
+
 [[./img/dash.png]]
 
 [[./img/docs.png]]
