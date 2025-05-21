@@ -75,6 +75,9 @@
   (mode-line-highlight
    (:background base01 :inherit 'mode-line))
 
+  (show-paren-match
+   (:foreground nil :background base03 :inherit 'underline))
+
   ;; Syntax
   (font-lock-punctuation-face
    (:inherit 'default))
