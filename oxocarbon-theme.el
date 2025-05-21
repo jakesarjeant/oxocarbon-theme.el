@@ -119,7 +119,7 @@
   (font-lock-function-name-face
    (:foreground base12-pink :inherit 'bold))
   (font-lock-builtin-face ; TODO: Is this the right choice?
-   (:inherit 'font-lock-function-name-face))
+   (:foreground base14-purple))
   (font-lock-function-call-face
    (:inherit 'font-lock-function-name-face))
 
