@@ -1,7 +1,32 @@
-#+title: Oxocarbon for Emacs
+#+title: oxocarbon-theme.el
+
+This is a port of the [[https://github.com/nyoom-engineering/oxocarbon.nvim][oxocarbon.nvim]] theme for emacs. Because it's a pretty theme.
+
+This is not a 100% complete port — quite a few of the less common faces haven't been defined yet — but it's more complete than any of the other emacs ports I could find. Feel free to open a PR if you notice anything I've missed!
 
 [[./img/dash.png]]
 
 [[./img/docs.png]]
 
 [[./img/code.png]]
+
+** Prerequisites
+
+This theme requires that ~autoloader~ is installed.
+
+** Installation
+
+Simply download this theme, move it to your custom theme directory and load it with ~load-theme~.
+
+For example, using DOOM emacs:
+
+#+begin_example sh
+curl https://raw.githubusercontent.com/jakesarjeant/oxocarbon-theme.el/refs/heads/master/oxocarbon-theme.el \
+     -o ~/.config/doom/themes/oxocarbon-theme.el
+#+end_example
+
+and add the following to ~.config/doom/config.el~:
+
+#+begin_example elisp
+(load-theme 'oxocarbon t)
+#+end_example
